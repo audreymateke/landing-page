@@ -1,44 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="Images/style.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <meta name="description" content="AUDREY is a front-end engineer based in SOUTH AFRICA.">
+    <title>Front-end developer - Audrey mateke</title>
 
-    <title>LANDING PAGE</title>
-</head>
-<body class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="navbar-logo">
-            <img src="Images/yjm.jpeg" alt="Logo">
-          </div>
-        <a class="navbar-brand" href="#">HAIR SPACE</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Poppins:wght@500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="products.html"> Products</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-          </ul>
-        </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ddc3ee268a.js" crossorigin="anonymous"></script>
+  </head>
+  <body cz-shortcut-listen="true">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="logo.png" class="logo d-none d-md-block" alt="Patricia Logo">
+          <img src="Images/yjm.jpeg" class="logo d-block d-md-none" alt="Patricia Logo">
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about" title="About Rumbidzai"> About</a>
+          </li>
+          
+        </ul>
       </nav>
+    </div>
+    <div class="hero">
+      <p>👋 WELCOME TO</p>
+      <h1>Beauty Salon</h1>
+      <h2 class="mb-5">The finest wig store in South Africa</h2>
+      <div>
+        <a class="btn btn-branding" href="/contact" title="Contact me">Contact me</a>
+      </div>
+    </div>
+    <p class="text-center m-5">My products available in store</p>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img src="Images/blackwigs.jpg" class="img-fluid" alt="Yogurt project preview">
+        </div>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">frontal wigs</h2>
+            <a class="btn btn-branding-outline" href="/work">
+              buy
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">frontal</h2>
+            <a class="btn btn-branding-outline" href="/work">
+              Buy
+            </a>
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img src="Images/gyu.jpg" class="img-fluid" alt="Weather project preview">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-none d-lg-block">
+          <img src="Images/OIP.jpeg" class="img-fluid" alt="Dictionary app preview">
+        </div>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5"> frontal</h2>
+            
+            <a class="btn btn-branding-outline" href="/work">
+                Buy
     
-</body>
-</html>
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a class="btn btn-branding mt-3" href="/contact" title="Contact Vinnie">
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:audreymateke1@gmail.com" class="email-link" title="Email Vinnie">
+            audreymateke1@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://github.com/audreymateke" target="_blank" title="GitHub Profile">
+            <i class="fab fa-github"> audrey</i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" title="instragram Profile">
+            <i class="fab fa-instagram">Audrey-m</i>
+          </a>
+          <a href="https://twitter.com/VivianMolli" target="_blank" title="Twitter Profile">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Rumbidzai Mateke, and is
+          <a href="https://github.com/audreymateke/portfolio" target="_blank">
+            open-sourced
+          </a>
+        </p>
+      </footer>
+    </div>
+  
+
+
+</body></html>
